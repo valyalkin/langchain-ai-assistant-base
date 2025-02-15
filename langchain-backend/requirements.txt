@@ -1,0 +1,6 @@
+fastapi[standard]
+langchain
+langchain_core
+langchain_openai
+langchain_chroma
+langchain_community
