@@ -14,7 +14,7 @@ def get_api_response(question, session_id, model):
         data["session_id"] = session_id
 
     try:
-        response = requests.post("http://localhost:8000/chat", headers=headers, json=data)
+        response = requests.post("http://localhost:8000/chat_graph", headers=headers, json=data)
         if response.status_code == 200:
             return response.json()
         else:
